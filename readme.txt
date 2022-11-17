@@ -4,9 +4,6 @@ output videos folder contain output videos
 Undistorting image:
 As different cameras uses different type of lens So there arises a need of undistorting the image , So first I have undistorted the image using chessboard images and some open CV inbuilt function .
 
-
-                                     Original Image						Undistorted Image				
-
 Perspective Transform:
 Here I have apply perspective transform to get bird’s eye view ,bird’s eye view is helpful in calculating the curvature of the road . The other benefit of top-down view is it fixes the issue where lane lines seem to merge whereas lane lines are infinitely parallel lines as long as the road runs.
  
